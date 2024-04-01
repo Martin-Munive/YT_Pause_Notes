@@ -1,26 +1,25 @@
 import tkinter as tk
 import chrome
 
+
+def on_estado_button_click():
+    chrome_status = chrome.check_chrome_status()
+    youtube_tab_status = chrome.check_youtube_tab()
+    status_label.config(text=chrome_status)
+    url_label.config(text=youtube_tab_status)
+
+
 root = tk.Tk()
-root.title("Youtube Stopper")
-root.configure(background="white")
-root.minsize(300, 100)
-root.maxsize(300, 100)
+root.title("Estado de Chrome")
 
+estado_button = tk.Button(root, text="Verificar Estado",
+                          command=on_estado_button_click)
+estado_button.pack()
 
-def on_pause_button_click():
-    message = chrome.is_chrome_on()
-    status_label.config(text=message)
-
-
-# Botón de pausa
-pause_button = tk.Button(root, text="Verificar Estado",
-                         command=on_pause_button_click)
-pause_button.pack()
-
-# Etiqueta de estado
-status_label = tk.Label(
-    root, text="Estado: Esperando acción.", justify="center")
+status_label = tk.Label(root, text="", justify="left")
 status_label.pack()
+
+url_label = tk.Label(root, text="", justify="left")
+url_label.pack()
 
 root.mainloop()

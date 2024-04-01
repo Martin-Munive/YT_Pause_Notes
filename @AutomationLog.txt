@@ -1,0 +1,8 @@
+2024-04-01 01:08:39.479 chrome.py[17] check_youtube_tab -> Find Control Timeout(10s): {ClassName: 'Chrome_WidgetWin_1', ControlType: WindowControl}
+2024-04-01 01:12:17.561 chrome.py[18] check_youtube_tab -> Find Control Timeout(10s): {Name: 'Google Chrome', ControlType: WindowControl}
+2024-04-01 01:16:24.977 chrome.py[19] check_youtube_tab -> Find Control Timeout(10s): {Name: 'Google Chrome', timeout: 20, ControlType: WindowControl}
+2024-04-01 01:16:42.408 chrome.py[19] check_youtube_tab -> Find Control Timeout(10s): {Name: 'Google Chrome', timeout: 20, ControlType: WindowControl}
+2024-04-01 01:21:17.889 chrome.py[19] check_youtube_tab -> Find Control Timeout(10s): {Name: 'Google Chrome', timeout: 20, ControlType: WindowControl}
+2024-04-01 01:24:38.707 chrome.py[18] check_youtube_tabs -> Find Control Timeout(10s): {ClassName: 'Chrome_WidgetWin_1', ControlType: WindowControl}
+2024-04-01 01:26:17.521 chrome.py[18] check_youtube_tabs -> Find Control Timeout(10s): {ClassName: 'Chrome_WidgetWin_1', ControlType: WindowControl}
+2024-04-01 02:02:58.812 chrome.py[20] check_youtube_tab -> Find Control Timeout(10s): {ClassName: 'Chrome_WidgetWin_1', ControlType: WindowControl}
